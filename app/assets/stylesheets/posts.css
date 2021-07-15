@@ -80,55 +80,44 @@ ul, li {
 }
 
 .main {
-  height: 85vh;
-  display: none;
+  height: 83vh;
   overflow: auto;
 }
 
 .first-content {
   height: 300px;
-  overflow: auto;
+  background-color: aqua;
 }
 
 .second-content {
   height: 300px;
-  overflow: auto;
+  background-color: beige;
 }
 
 .third-content {
   height: 300px;
-  overflow: auto;
+  background-color: blueviolet;
 }
 
-.footer-bar {
-  height: 5vh;
-  background-color: gray;
-}
-
-.footer-bar p {
-  width: 20%;
-  min-width: 50%;
-  margin: 0 auto;
-  border: 1px solid beige;
-  text-align: center;
-}
-
-.modal {
-  height: 85vh;
+#modal {
+  height: 85%;
   position: relative;
 }
 
 #upper-modal {
-  background-color: aqua;
-  height: calc(100% / 2);
+  height: 97%;
+  width: 100%;
+  background-image: url("https://i.gyazo.com/52094e9914636e3ea76aa07a7e249ac4.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+  background-blend-mode: luminosity;
 }
 
-#down-modal {
-  background-color: burlywood;
-  height: calc(100% / 2);
-}
-
-#middle-modal {
+#circle {
   width: 30%;
   max-width: 25%;
   min-width: 25%;
@@ -139,5 +128,19 @@ ul, li {
   top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-image: url(https://i.gyazo.com/3ff9ca98d9d17f3780b67cb60b766553.png);
+  background-size: cover;
+}
+
+.footer-bar {
+  height: 7vh;
   background-color: gray;
+}
+
+.footer-bar p {
+  width: 20%;
+  min-width: 50%;
+  margin: 0 auto;
+  border: 1px solid beige;
+  text-align: center;
 }
