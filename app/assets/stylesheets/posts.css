@@ -132,6 +132,19 @@ ul, li {
   background-size: cover;
 }
 
+#close-btn {
+  width: 10%;
+  height: 15%;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background-color: burlywood;
+  display: none;
+}
+
 .footer-bar {
   height: 7vh;
   background-color: gray;
