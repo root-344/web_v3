@@ -118,17 +118,15 @@ ul, li {
 }
 
 #circle {
-  width: 30%;
-  max-width: 25%;
-  min-width: 25%;
-  height: 40%;
-  border: 3px solid black;
+  width: 15vw;
+  height: 25vh;
+  border: 5px solid black;
   border-radius: 50%;
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(https://i.gyazo.com/3ff9ca98d9d17f3780b67cb60b766553.png);
+  background-image: url(https://i.gyazo.com/fc15feddb45635836c592bf5dcbc5c77.jpg);
   background-size: cover;
 }
 
@@ -143,6 +141,14 @@ ul, li {
   transform: translate(-50%, -50%);
   background-color: burlywood;
   display: none;
+}
+
+.close-word {
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 30%;
+  left: 35%;
 }
 
 .footer-bar {
